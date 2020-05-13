@@ -1,0 +1,72 @@
+@charset "utf-8";
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+.header {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-position: 0% 0%;
+	background-color: #FFFFFF;
+}
+.main {
+	width: 1000px;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.main .navbar {
+	background-color: #D1FFFA;
+	width: 200px;
+	height: 800px;
+	float: left;
+	background-image: url(images/20190915134440_tbmwh.jpg);
+}
+.main .navbar a {
+	display: block;
+	width: 70%;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 40px;
+	font-weight: bold;
+	font-style: normal;
+	color: #000000;
+	border-color: #000000;
+
+}
+.main .navbar a:hover {
+	text-align: center;
+	background-color: #B6B6B6;
+}
+
+
+.main .section iframe {
+	width: 100%;
+	border: none;
+	height: 100%;
+}
+
+.main .section {
+	width: 780px;
+	height: 800px;
+	float: left;
+	margin-left: 20px;
+}
+.footer {
+	width: 1000px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFFFFF;
+	text-align: center;
+}
